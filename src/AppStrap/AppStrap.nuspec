@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AppStrap</id>
+    <version>1.0.0</version>
+    <authors>Brandt Wright</authors>
+    <owners>Brandt Wright</owners>
+    <licenseUrl>https://github.com/BrandtWright/AppStrap/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/BrandtWright/AppStrap</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET mediator implementation with convenience types.</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>mediator command query notification</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

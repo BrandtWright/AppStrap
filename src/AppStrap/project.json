@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "authors": [ "Brandt Wright" ],
+  "copyright": "Copyright Brandt Wright",
+  "description": ".NET mediator implementation with convenience types.",
+  "packOptions": {
+    "licenseUrl": "https://github.com/BrandtWright/AppStrap/blob/master/LICENSE",
+    "projectUrl": "https://github.com/BrandtWright/AppStrap",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brandtwright/appstrap"
+    }
+  },
+
+  "frameworks": {
+    "net45": {},
+    "netstandard1.1": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    }
+  }
+}

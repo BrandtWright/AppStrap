@@ -1,0 +1,14 @@
+﻿namespace AppStrap.Patterns.Specification
+{
+    public static class ExtensionMethods
+    {
+        public static ISpecification<TEntity> And<TEntity>(this ISpecification<TEntity> spec1, ISpecification<TEntity> spec2) => 
+            new AndSpecification<TEntity>(spec1, spec2);
+
+        public static ISpecification<TEntity> Or<TEntity>(this ISpecification<TEntity> spec1, ISpecification<TEntity> spec2) => 
+            new OrSpecification<TEntity>(spec1, spec2);
+
+        public static ISpecification<TEntity> Not<TEntity>(this ISpecification<TEntity> spec) => 
+            new NotSpecification<TEntity>(spec);
+    }
+}
